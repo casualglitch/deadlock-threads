@@ -11,7 +11,7 @@ public class Main {
         new Thread1(myLock1, myLock2).start();
         new Thread2(myLock1, myLock2).start();
         
-        Thread.sleep(500000);
+        Thread.sleep(100);
         System.out.println("Main thread finished");
     }
     
